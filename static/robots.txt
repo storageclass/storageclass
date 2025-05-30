@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-User-agent: Googlebot
-User-agent: AdsBot-Google-Mobile
-User-agent: AdsBot-Google
-
-Sitemap: https://www.storageclass.info/sitemap.xml
