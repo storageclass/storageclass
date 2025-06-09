@@ -3,6 +3,9 @@ RewriteEngine On
 Redirect 301 "/csidrivers" "/drivers"
 RewriteBase /subdirectory
 RewriteRule ^index\.html$ - [L]
+
+RewriteRule glossary/?$ /index.html [L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
