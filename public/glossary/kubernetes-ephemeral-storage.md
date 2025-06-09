@@ -1,4 +1,4 @@
-# What is Kubernetes Ephemeral Storage
+# What is Kubernetes Ephemeral Storage?
 
 Kubernetes Ephemeral Storage refers to temporary storage allocated to pods that lasts only as long as the pod exists. Unlike persistent volumes, this type of storage is deleted when the pod is terminated, making it suitable for stateless applications, caching, temporary processing, or scratch data.
 

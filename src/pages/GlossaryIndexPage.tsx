@@ -14,6 +14,7 @@ const GlossaryIndexPage: React.FC = () => {
         const response = await fetch("/glossary/index.yaml");
         const yamlText = await response.text();
         const content = load(yamlText) as { pages: Page[] };
+        content.pages = content.pages.sort((a: Page, b: Page) => a.title.localeCompare(b.title));
         setPages(content.pages);
     }
 
@@ -34,7 +35,7 @@ const GlossaryIndexPage: React.FC = () => {
                     </p>
                     <ul className="text-gray-600 dark:text-gray-300 mb-4">
                         {pages.map((page) => (
-                            <li key={page.file}>→
+                            <li key={page.file}>→&nbsp;
                                 <NavLink to={'/glossary/' + page.file.replace(".md", "")}>
                                     {page.title}
                                 </NavLink>
