@@ -1,4 +1,4 @@
-# What is the Kubernetes CSI Resizer?
+# What is Kubernetes CSI Resizer?
 
 The Kubernetes CSI Resizer lets you increase the size of a persistent volume without shutting down your pod or reattaching the volume. It works as a controller that watches for updates to PersistentVolumeClaims (PVCs) and coordinates with the CSI driver to perform a live volume expansion.
 
