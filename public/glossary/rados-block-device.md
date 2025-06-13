@@ -1,4 +1,4 @@
-# What is a Rados Block Device (RBD)?
+# What is Rados Block Device (RBD)?
 
 Rados Block Device (RBD) is a distributed block storage system built on top of Ceph's RADOS object store. It provides high-performance, reliable block storage that’s accessible by Linux hosts and Kubernetes workloads. RBD volumes behave like standard block devices but are backed by a highly durable and scalable object-based backend.
 
