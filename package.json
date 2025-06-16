@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "front-matter": "^4.0.2",
     "html-react-parser": "^5.2.5",
     "js-yaml": "^4.1.0",
     "lucide-react": "^0.344.0",
