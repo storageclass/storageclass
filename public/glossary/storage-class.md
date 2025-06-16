@@ -1,4 +1,12 @@
-# What is Storage Class?
+---
+title: What is a Storage Class in Kubernetes
+description: Learn more about Kubernetes Storage Classes and how they relate to Persistent Volumes and Persistent Volume Claims.
+keywords:
+  - storageclass
+  - kubernetes
+  - persistentvolume
+---
+# What is a Storage Class?
 
 A Storage Class in Kubernetes defines how storage should be provisioned when a Persistent Volume Claim (PVC) requests it. It allows infrastructure teams to abstract different types of underlying storage — such as SSDs, HDDs, or cloud volumes — and expose them as configurable classes with unique performance, cost, or replication profiles.
 
