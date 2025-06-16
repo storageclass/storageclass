@@ -9,9 +9,9 @@ const Header: React.FC = () => {
             <div className="container mx-auto flex items-center justify-between">
                 <div className="flex items-center space-x-6">
                     <NavLink to="/" className="flex items-center space-x-2">
-                        <h1 className="text-2xl font-bold text-gray-800 dark:text-white">
+                        <p className="text-2xl font-bold text-gray-800 dark:text-white">
                             StorageClass.info
-                        </h1>
+                        </p>
                         <span className="bg-blue-600 text-white text-xs px-2 py-1 rounded-md font-medium">
               CSI Drivers
             </span>
