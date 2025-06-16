@@ -1,4 +1,4 @@
-# What is the Kubernetes CSI Snapshotter?
+# What is Kubernetes CSI Snapshotter?
 
 The Kubernetes CSI Snapshotter is a controller that enables native snapshot operations in Kubernetes using the CSI (Container Storage Interface) framework. It automates the lifecycle of volume snapshots through Kubernetes CRDs, making it easier to back up, restore, and clone persistent volumes with minimal configuration.
 
