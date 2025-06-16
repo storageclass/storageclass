@@ -53,6 +53,7 @@ const GlossaryIndexPage: React.FC = () => {
                     metaTag = document.createElement("meta");
                     metaTag.setAttribute("name", "keywords");
                     metaTag.setAttribute("content", metaKeywords.join(", "));
+                    document.head.appendChild(metaTag);
                 }
             }
         }
