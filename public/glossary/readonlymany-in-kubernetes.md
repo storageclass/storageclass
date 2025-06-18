@@ -1,3 +1,7 @@
+---
+title: What is ReadOnlyMany in Kubernetes
+description: ReadOnlyMany in Kubernetes is commonly used with NFS volumes to distribute data like binaries or config maps across multiple read-only pods.
+---
 # What is ReadOnlyMany in Kubernetes?
 
 `ReadOnlyMany` (ROX) is an access mode in Kubernetes that allows multiple pods, across one or more nodes, to mount the same volume with read-only access. This mode is useful when data must be shared widely without being modified, ensuring consistency and simplifying state management in large-scale workloads.

@@ -1,4 +1,8 @@
-# What is Kubernetes Storage Options?
+---
+title: What are Kubernetes Storage Options
+description: Kubernetes Storage Options include block, file, and object storage types, supported through CSI plugins and built-in volume drivers.
+---
+# What are Kubernetes Storage Options?
 
 Kubernetes offers a flexible and extensible storage architecture to support both stateless and stateful workloads. From local disks to networked file systems and cloud-native object stores, Kubernetes storage options are designed to fit a range of performance, cost, and durability requirements.
 

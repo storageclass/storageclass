@@ -1,3 +1,7 @@
+---
+title: What is NVMe over TCP
+description: NVMe over TCP uses standard Ethernet to deliver NVMe storage performance across networks without requiring special hardware.
+---
 # What is NVMe over TCP?
 
 **NVMe over TCP** is a modern storage protocol that combines the speed of NVMe with the flexibility of standard IP networks. It enables fast, scalable, and low-latency access to block storage using existing Ethernet infrastructure. For DevOps teams, infrastructure engineers, and IT leaders, it's a game-changer in how enterprise data storage is deployed and scaled.

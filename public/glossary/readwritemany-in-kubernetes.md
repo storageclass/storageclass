@@ -1,3 +1,7 @@
+---
+title: What is ReadWriteMany in Kubernetes
+description: ReadWriteMany in Kubernetes supports concurrent access by many pods to one volume, simplifying shared storage management in clusters.
+---
 # What is ReadWriteMany in Kubernetes?
 
 `ReadWriteMany` (RWX) is an access mode in Kubernetes that allows multiple pods across different nodes to read from and write to the same PersistentVolume simultaneously. It is essential for shared-storage workloads that require consistent access across the cluster, including distributed applications, content management systems, and parallel compute jobs.

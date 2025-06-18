@@ -1,3 +1,7 @@
+---
+title: What is Persistent Volume
+description: Persistent Volume simplifies storage management in Kubernetes by providing an abstraction over physical or cloud disks.
+---
 # What is Persistent Volume?
 
 A Persistent Volume (PV) in Kubernetes is a cluster-wide storage resource that provides durable storage independent of the pod lifecycle. Unlike ephemeral storage, which is tied to a pod's lifetime, a persistent volume allows data to survive restarts, rescheduling, and scaling events.

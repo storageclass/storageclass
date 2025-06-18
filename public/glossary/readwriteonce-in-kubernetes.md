@@ -1,3 +1,7 @@
+---
+title: What is ReadWriteOnce in Kubernetes
+description: ReadWriteOnce in Kubernetes supports controlled volume access, often used for monolithic apps or single-instance database containers.
+---
 # What is ReadWriteOnce in Kubernetes?
 
 `ReadWriteOnce` (RWO) is a Kubernetes access mode that allows a persistent volume to be mounted as read-write by a single node. This setup is commonly used to ensure data consistency and reliable storage for stateful applications running in containers.

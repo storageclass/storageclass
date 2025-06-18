@@ -1,3 +1,7 @@
+---
+title: What is ReadWriteOncePod in Kubernetes
+description: ReadWriteOncePod in Kubernetes is ideal for cases that require strict volume control and exclusive access on a per-pod basis.
+---
 # What is ReadWriteOncePod in Kubernetes?
 
 `ReadWriteOncePod` (RWO-Pod) is a specialized Kubernetes access mode introduced to enhance control over volume mounting in tightly scoped workloads. It refines the behavior of `ReadWriteOnce` (RWO) by limiting access to a single pod, rather than just a single node.

@@ -1,3 +1,7 @@
+---
+title: Key Functions of Kubernetes CSI Provisioner
+description: Kubernetes CSI Provisioner is a sidecar container that enables dynamic provisioning using CSI-compliant storage backends.
+---
 # What is Kubernetes CSI Provisioner?
 
 A Kubernetes CSI Provisioner is a key component in the Kubernetes storage stack. It automates the creation of persistent volumes using the Container Storage Interface (CSI), allowing storage to be provisioned dynamically in response to workload demands. When a user creates a PersistentVolumeClaim (PVC), the CSI provisioner coordinates with a CSI driver to create the corresponding volume on the backend system.

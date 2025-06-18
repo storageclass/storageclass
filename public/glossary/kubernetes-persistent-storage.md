@@ -1,3 +1,7 @@
+---
+title: What Is Kubernetes Persistent Storage
+description: Kubernetes Persistent Storage supports volume retention and dynamic provisioning for long-term pod data storage in clusters.
+---
 # What is Kubernetes Persistent Storage?
 
 Kubernetes Persistent Storage allows pods to retain data beyond the lifespan of individual containers. Unlike ephemeral storage, which vanishes when a pod is terminated or rescheduled, persistent storage ensures continuity — making it essential for stateful applications such as databases, queues, and analytics engines.

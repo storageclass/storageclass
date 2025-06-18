@@ -1,3 +1,7 @@
+---
+title: What Is Kubernetes Persistent Storage on Windows 
+description: Kubernetes Persistent Storage on Windows supports StatefulSets and PVCs using compatible storage backends like SMB or CSI driver.
+---
 # What is Kubernetes Persistent Storage on Windows?
 
 Running stateful applications on Windows nodes in Kubernetes is no longer experimental. As enterprise adoption of Kubernetes on Windows grows, so does the need for persistent storage that works reliably across clusters with mixed operating systems. While Linux-based clusters have mature CSI implementations, Windows workloads introduce unique constraints around drivers, volume paths, and filesystem compatibility.

@@ -1,3 +1,8 @@
+---
+title: Kubernetes File Storage Overview
+description: Kubernetes File Storage provides shared, mountable file systems across pods using NFS, CSI drivers, or cloud-native file volumes.
+---
+
 # What is Kubernetes File Storage?
 
 Kubernetes File Storage refers to persistent volumes that present a shared file system to pods, allowing multiple containers to access the same files concurrently. Unlike block storage, which exposes raw devices, file storage provides a mounted directory with hierarchical structure and POSIX compliance. Kubernetes supports file storage through PersistentVolumes (PVs) backed by NFS, CephFS, or managed services like Amazon EFS. It’s used when multiple pods need simultaneous read/write access to shared data.

@@ -1,3 +1,7 @@
+---
+title: Kubernetes CSI Migration for In-Tree Plugins
+description: Kubernetes CSI Migration moves in-tree storage plugins to external CSI drivers, improving modularity and maintainability.
+---
 # What is Kubernetes CSI Migration?
 
 Kubernetes CSI Migration refers to the process of shifting from legacy in-tree volume plugins to the out-of-tree Container Storage Interface (CSI) model. This change allows Kubernetes to interact with third-party storage solutions through a standardized API, without embedding vendor-specific logic into the Kubernetes core.

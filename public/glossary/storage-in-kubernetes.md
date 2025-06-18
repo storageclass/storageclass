@@ -1,3 +1,7 @@
+---
+title: What is Storage in Kubernetes
+description: Storage in Kubernetes enables reliable access to external or internal volumes through persistent, ephemeral, or shared mounts.
+---
 # What is Storage in Kubernetes?
 
 Storage in Kubernetes refers to the mechanisms that allow containers to persist data across pod restarts, crashes, and node reassignments. While containers themselves are ephemeral, Kubernetes integrates a variety of volume types and storage interfaces to support both temporary and durable data needs. This makes it suitable for running modern applications that require resilience and consistency in storage operations.

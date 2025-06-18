@@ -1,3 +1,7 @@
+---
+title: What is NVMe over Fabrics
+description: Learn how NVMe over Fabrics improves storage speed and flexibility using protocols like RDMA or TCP across networked devices.
+---
 # What is NVMe over Fabrics?
 
 NVMe over Fabrics (NVMe-oF) is a network protocol that extends the NVMe storage command set across high-speed network transports like Ethernet, Fibre Channel, or InfiniBand. It enables hosts to access remote NVMe storage devices with performance levels close to locally attached drives. By separating storage from compute, NVMe-oF supports fast, scalable architectures for cloud-native and enterprise environments.

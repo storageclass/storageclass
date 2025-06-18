@@ -1,3 +1,8 @@
+---
+title: Benefits of Using iSCSI in Storage
+description: iSCSI is a storage protocol used to link data storage across networks, often used in virtual and cloud-based infrastructures.
+---
+
 # What is iSCSI?
 
 iSCSI, or Internet Small Computer Systems Interface, is a transport protocol that enables SCSI commands to be transmitted over IP networks. It allows storage devices to be accessed and managed using standard Ethernet infrastructure, without requiring specialized Fibre Channel hardware. By encapsulating SCSI commands inside TCP packets, [iSCSI](https://en.wikipedia.org/wiki/ISCSI) delivers block-level storage over LAN or WAN connections, presenting remote disks to hosts as if they were locally attached.

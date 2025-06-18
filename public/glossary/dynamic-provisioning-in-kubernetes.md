@@ -1,3 +1,8 @@
+---
+title: Understanding Dynamic Provisioning in Kubernetes
+description: Dynamic Provisioning in Kubernetes automates storage allocation for pods, improving efficiency and reducing manual steps.
+---
+
 # What is Dynamic Provisioning in Kubernetes?
 
 Dynamic provisioning in Kubernetes allows PersistentVolumes (PVs) to be created automatically when a user submits a PersistentVolumeClaim (PVC). This removes the need for pre-allocated storage, allowing the system to respond to workload needs in real time.

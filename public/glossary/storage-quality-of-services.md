@@ -1,3 +1,7 @@
+---
+title: What is Storage Quality of Services
+description: Storage Quality of Services enables administrators to control latency, throughput, and IOPS for persistent volume access.
+---
 # What is Storage Quality of Services?
 
 Quality of Service (QoS) is a well-established concept in computing, often tied to network bandwidth or CPU and memory allocation. But in distributed systems running containerized workloads, **Storage Quality of Services** is becoming a critical focus. It refers to the ability to assign performance guarantees—like IOPS, latency, or throughput—to storage volumes in order to ensure predictable application behavior.

@@ -1,3 +1,7 @@
+---
+title: What is Thin Provisioning
+description: Thin Provisioning is widely used in virtualized and containerized environments to optimize storage infrastructure and reduce waste.
+---
 # What is Thin Provisioning?
 
 Thin provisioning is a storage allocation method where capacity is reserved logically but not physically until data is written. It allows systems to present more storage to users than actually exists, relying on dynamic allocation to meet real usage. This model improves efficiency, minimizes idle disk space, and supports more elastic storage strategies — particularly useful in container-native and virtualized environments.

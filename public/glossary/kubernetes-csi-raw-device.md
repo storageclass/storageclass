@@ -1,3 +1,7 @@
+---
+title: Understanding Kubernetes CSI Raw Device Mode
+description: Kubernetes CSI Raw Device enables pods to mount storage volumes as raw block devices for performance-sensitive workloads.
+---
 # What is Kubernetes CSI Raw Device?
 
 Kubernetes CSI raw devices refer to block volumes exposed to pods as unformatted raw devices instead of mounted filesystems. This approach enables applications to format, partition, or use the storage device in ways that are not possible with traditional file-based mounts. It’s often used for performance-intensive workloads like databases, streaming engines, and virtual machines.
