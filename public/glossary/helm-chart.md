@@ -1,3 +1,7 @@
+---
+title: What a Helm Chart Does in Kubernetes
+description: Helm Chart simplifies deployment and scaling in Kubernetes by packaging app resources into manageable templates.
+---
 # What is Helm Chart?
 
 A Helm Chart is a packaging standard used to define, install, and manage Kubernetes applications. Instead of manually applying dozens of YAML files, a Helm Chart lets you package related Kubernetes resources—like Deployments, Services, and PersistentVolumeClaims—into one deployable unit. It’s widely adopted because it streamlines operations across environments and enables consistent, repeatable deployments. The format and ecosystem are maintained by the [Helm open-source project](https://en.wikipedia.org/wiki/Helm_(software)), part of the CNCF.

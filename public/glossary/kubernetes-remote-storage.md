@@ -1,3 +1,7 @@
+---
+title: What Is Kubernetes Remote Storage
+description: Kubernetes Remote Storage helps teams share data between pods and clusters using external storage like NFS or object stores.
+---
 # What is Kubernetes Remote Storage?
 
 Kubernetes Remote Storage refers to persistent storage resources that are accessible over a network from outside the node running a given pod. It allows data to live independently of the compute infrastructure, enabling portability, replication, and centralized management. For infrastructure teams, DevOps engineers, and platform architects, remote storage is essential for scalable, fault-tolerant application design in Kubernetes clusters.

@@ -1,3 +1,8 @@
+---
+title: What is Kubernetes Storage
+description: Kubernetes Storage supports dynamic provisioning and durable volume management using PVCs and CSI-compatible storage drivers.
+---
+
 # What is Kubernetes Storage?
 
 Kubernetes storage refers to the mechanisms and abstractions that allow containers to persist and share data across pods, nodes, and even clusters. While Kubernetes itself is stateless by design, its storage architecture supports dynamic provisioning, persistent volumes, and distributed access to accommodate modern workloads that require durability and high availability.

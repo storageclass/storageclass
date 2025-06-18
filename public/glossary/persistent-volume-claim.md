@@ -1,3 +1,7 @@
+---
+title: What is Persistent Volume Claim
+description: Persistent Volume Claim allows pods to request storage with specific size and access modes from available volume pools.
+---
 # What is Persistent Volume Claim?
 
 A Persistent Volume Claim (PVC) in Kubernetes is a user-defined request for storage. It allows a pod to claim and bind to a Persistent Volume (PV) without needing to know the underlying infrastructure. PVCs make storage requests portable, declarative, and dynamically provisionable, helping developers and platform teams stay focused on workloads—not disk configurations.

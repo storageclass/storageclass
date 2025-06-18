@@ -1,3 +1,7 @@
+---
+title: What is NFS Share
+description: An NFS Share lets multiple systems access the same file directory over a network using the Network File System protocol.
+---
 # What is NFS Share?
 
 NFS Share refers to a directory or file system that is made accessible over a network using the Network File System (NFS) protocol. It enables multiple clients—such as servers, virtual machines, or containers—to read and write to the same file system remotely, as if it were mounted locally.

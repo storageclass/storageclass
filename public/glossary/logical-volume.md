@@ -1,3 +1,8 @@
+---
+title: What is Logical Volume
+description: Logical Volume lets you resize, create, and manage disk partitions easily on Linux using the Logical Volume Manager tool.
+---
+
 # What is Logical Volume?
 
 A logical volume is a virtualized slice of storage carved from a pool of physical devices. It introduces flexibility by abstracting block-level access from the hardware underneath. This approach allows operators to allocate, resize, or snapshot volumes without being tied to specific disk partitions. While Kubernetes doesn’t manage logical volumes directly, they’re often used behind CSI drivers or in clusters that favor fine-grained control over storage.

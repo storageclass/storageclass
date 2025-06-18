@@ -1,3 +1,7 @@
+---
+title: What is Storage Virtualization
+description: Storage Virtualization increases agility by allowing flexible expansion, migration, and load balancing of storage resources.
+---
 # What is Storage Virtualization?
 
 Storage virtualization is the process of aggregating multiple physical storage devices into a unified, logical storage system. It creates a software-defined layer that allows administrators and systems to interact with virtual volumes instead of managing disks directly. This approach supports efficient provisioning, flexible scaling, and simplified operations across on-prem and cloud-native infrastructures.

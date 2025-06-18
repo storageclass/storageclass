@@ -1,3 +1,7 @@
+---
+title: What is Overprovisioning
+description: Overprovisioning improves IOPS and reduces latency by giving SSD controllers space to manage background operations.
+---
 # What is Overprovisioning?
 
 Overprovisioning is the strategy of allocating more logical resources than are physically available, based on the assumption that not all resources will be fully utilized at the same time. It’s a common approach in both compute and storage layers, especially in environments where workloads are bursty or predictable. The goal is to improve utilization, defer hardware investments, and offer elasticity — though not without operational risk.

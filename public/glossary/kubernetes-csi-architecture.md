@@ -1,3 +1,8 @@
+---
+title: Kubernetes CSI Architecture for Scalability
+description: Kubernetes CSI Architecture enables fast, cloud-agnostic storage operations via modular drivers and decoupled control flows.
+---
+
 # What is Kubernetes CSI Architecture?
 
 The Kubernetes CSI (Container Storage Interface) architecture defines how Kubernetes interacts with external storage systems through a standardized interface. This design allows third-party storage vendors to develop CSI drivers that work with Kubernetes without needing to modify Kubernetes core.

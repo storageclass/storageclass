@@ -1,3 +1,8 @@
+---
+title: Simple Guide to Kubernetes Local Storage
+description: Kubernetes Local Storage is ideal for apps requiring fast disk I/O and persistent data on specific nodes in the cluster.
+---
+
 # What is Kubernetes Local Storage?
 
 Kubernetes Local Storage is a node-specific storage option that allows pods to use block devices or directories directly attached to the node they're scheduled on. It delivers high throughput and low latency for workloads that don’t require cross-node volume mobility. For DevOps teams, platform engineers, and cloud-native architects, it's a powerful tool for unlocking fast persistent storage without network complexity.

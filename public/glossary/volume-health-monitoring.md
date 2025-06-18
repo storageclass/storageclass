@@ -1,3 +1,8 @@
+---
+title: What is Volume Health Monitoring
+description: Volume Health Monitoring supports event-based notifications in Kubernetes, allowing proactive response to storage failures.
+---
+
 # What is Volume Health Monitoring?
 
 As Kubernetes continues to handle more critical and stateful workloads, maintaining the health of persistent volumes becomes essential. Volume health monitoring refers to the real-time tracking of storage volumes' operational state, allowing Kubernetes administrators to identify I/O issues, failures, and potential risks before they affect workloads.

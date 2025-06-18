@@ -1,3 +1,7 @@
+---
+title: What is XFS
+description: XFS is widely used in enterprise environments for workloads that demand fast access, reliability, and large volume support.
+---
 # What is XFS?
 
 XFS is a high-performance journaling file system built for parallel I/O, large files, and high-throughput workloads. Originally developed by SGI and now widely adopted in Linux environments, it supports delayed allocation, metadata journaling, online resizing, and scalable block mapping. In Kubernetes, XFS is often used as an alternative to ext4 when workloads demand more predictable write performance or benefit from advanced I/O handling. It’s not the default file system in most clusters, but it is supported by most CSI drivers and works reliably in production.

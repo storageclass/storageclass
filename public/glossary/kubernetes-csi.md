@@ -1,3 +1,7 @@
+---
+title: How Kubernetes CSI Improves Storage
+description: Kubernetes CSI provides a consistent framework for handling volume lifecycle across cloud, on-prem, and hybrid deployment.
+---
 # What is Kubernetes CSI?
 
 The Kubernetes Container Storage Interface (CSI) is a standard API that enables Kubernetes to work with different storage systems—without needing to recompile or update the Kubernetes core. CSI decouples storage logic from the Kubernetes release cycle, allowing third-party vendors and in-house teams to build and maintain custom volume drivers. These CSI drivers are responsible for provisioning, attaching, mounting, resizing, and deleting volumes within a cluster.

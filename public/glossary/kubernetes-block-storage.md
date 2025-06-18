@@ -1,3 +1,7 @@
+---
+title: How Kubernetes Block Storage Works
+description: Understand Kubernetes Block Storage and its role in managing persistent, high-performance volumes for critical applications.
+---
 # What is Kubernetes Block Storage?
 
 Kubernetes Block Storage refers to persistent volumes that expose raw block devices to pods. These are ideal for high-performance, stateful workloads like transactional databases, analytics engines, or VM disks. Unlike file or object storage, block storage gives applications direct access to a virtual disk, where they can manage their own filesystems or write raw data.

@@ -1,3 +1,7 @@
+---
+title: Kubernetes CSI Specification Core Concepts
+description: Kubernetes CSI Specification ensures consistent storage behavior across CSI drivers by enforcing implementation of core RPCs.
+---
 # What is Kubernetes CSI Specification?
 
 The Kubernetes CSI Specification defines how storage systems should interact with Kubernetes through a standardized interface. CSI, or **Container Storage Interface**, enables third-party storage vendors to create plugins that interact with Kubernetes without requiring changes to Kubernetes core code.

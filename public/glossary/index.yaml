@@ -70,7 +70,7 @@ pages:
   - file: "kubernetes-csi-raw-device.md"
     title: "What is Kubernetes CSI Raw Device?"  
   - file: "kubernetes-storage-options.md"
-    title: "What is Kubernetes Storage Options?"
+    title: "What are Kubernetes Storage Options?"
   - file: "storage-in-kubernetes.md"
     title: "What is Storage in Kubernetes?"
   - file: "readwriteonce-in-kubernetes.md"

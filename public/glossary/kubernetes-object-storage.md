@@ -1,3 +1,7 @@
+---
+title: What Is Kubernetes Object Storage
+description: Kubernetes Object Storage lets apps store unstructured data like images and logs using S3-compatible or cloud-native backends.
+---
 # What is Kubernetes Object Storage?
 
 Kubernetes Object Storage refers to using external or integrated object-based systems to store unstructured data—like logs, backups, container images, and media—within Kubernetes environments. Unlike block or file storage, object storage relies on a flat address space and APIs to retrieve data, rather than exposing a traditional file system. In Kubernetes, it’s often used through S3-compatible interfaces or integrated tools like MinIO and Velero. This [object storage model](https://en.wikipedia.org/wiki/Object_storage) offers scalability and resiliency at a lower cost, especially for distributed, cloud-native workloads.

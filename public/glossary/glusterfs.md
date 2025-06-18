@@ -1,3 +1,8 @@
+---
+title: How GlusterFS Handles Distributed Storage
+description: Learn how GlusterFS enables distributed file storage across multiple servers with flexibility and redundancy.
+---
+
 # What is GlusterFS?
 
 GlusterFS is an open-source distributed file system that aggregates disk storage resources from multiple servers into a single global namespace. Built for horizontal scalability and high availability, it's used in environments that demand shared file access across nodes. While not native to Kubernetes, GlusterFS continues to support workloads that require ReadWriteMany (RWX) volumes, especially where POSIX compliance and on-prem control are essential.

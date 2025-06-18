@@ -1,3 +1,8 @@
+---
+title: ext4 File System Overview and Features
+description: ext4 is a journaling file system used in Linux that offers improved performance, reliability, and support for large files.
+---
+
 # What is ext4?
 
 ext4 (Fourth Extended Filesystem) is a Linux journaling file system that balances reliability and performance for general-purpose workloads. It supports delayed allocation, extents, journaling, and large file systems, making it a stable choice for managing block devices. In Kubernetes, ext4 is frequently used as the file system layered on top of PersistentVolumes backed by block storage. Its wide compatibility, mature tooling, and low overhead make it the default in many CSI-based storage deployments.
