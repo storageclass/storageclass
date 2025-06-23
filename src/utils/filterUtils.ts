@@ -6,9 +6,9 @@ export const driverMatchesFilters = (driver: Driver, filters: FilterState): bool
     if (filters.search) {
         const searchLower = filters.search.toLowerCase();
         const matchesSearch =
-            driver.name.toLowerCase().includes(searchLower) ||
-            driver.description.toLowerCase().includes(searchLower) ||
-            driver.driverClass.toLowerCase().includes(searchLower);
+            driver.name?.toLowerCase().includes(searchLower) ||
+            driver.description?.toLowerCase().includes(searchLower) ||
+            driver.driverClass?.toLowerCase().includes(searchLower);
 
         if (!matchesSearch) return false;
     }
