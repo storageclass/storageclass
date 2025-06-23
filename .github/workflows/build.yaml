@@ -23,6 +23,7 @@ jobs:
         run: |
           sudo apt install -y npm
           npm install
+          npm run sitemap
           npm run build
       - name: Upload storageclass.info
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
