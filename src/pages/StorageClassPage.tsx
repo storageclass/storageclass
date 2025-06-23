@@ -1,7 +1,13 @@
 import React from 'react';
 import {FileText, Settings, Database} from 'lucide-react';
+import {setPageMetadata} from "../utils/metadataUtils.js";
 
 const StorageClassPage: React.FC = () => {
+    setPageMetadata({
+        title: "StorageClass Specification",
+        description: "StorageClass defines classes of storage in Kubernetes. Covers dynamic provisioning, provisioner field, volume policies, and configuration options.",
+    });
+
     return (
         <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">

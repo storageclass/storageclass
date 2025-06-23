@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {load} from "js-yaml";
 import {NavLink} from "react-router-dom";
+import {setPageMetadata} from "../utils/metadataUtils.js";
 
 interface Page {
     file: string
@@ -21,6 +22,11 @@ const GlossaryIndexPage: React.FC = () => {
     useEffect(() => {
         loadPages();
     }, []);
+
+    setPageMetadata({
+        title: "StorageClass.info Glossary",
+        description: "Find explanations and guides around the most important terms for Kubernetes storage and the CSI (Container Storage Interface)."
+    });
 
     return (
         <div className="max-w-4xl mx-auto">

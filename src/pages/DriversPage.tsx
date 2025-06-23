@@ -8,6 +8,7 @@ import DriverDetailModal from '../components/DriverDetailModal';
 import EmptyState from '../components/EmptyState';
 import ResultsSummary from '../components/ResultsSummary';
 import {filterDrivers} from "../utils/filterUtils.ts";
+import {setPageMetadata} from "../utils/metadataUtils.js";
 
 const DriversPage: React.FC = () => {
     const [drivers, setDrivers] = useState<Driver[]>([]);
@@ -88,8 +89,16 @@ const DriversPage: React.FC = () => {
         setIsSidebarVisible(!isSidebarVisible);
     };
 
+    setPageMetadata({
+        title: "CSI Driver List | Detailed Feature Overview for 150+ Plugins",
+        description: "Full index of CSI Drivers by technical spec. Use filters to match storage type, lifecycle support, and orchestration requirements."
+    });
+
     return (
         <div>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">
+                CSI Drivers Directory
+            </h1>
             <SearchBar
                 searchQuery={filters.search}
                 setSearchQuery={(query) => setFilters({...filters, search: query})}

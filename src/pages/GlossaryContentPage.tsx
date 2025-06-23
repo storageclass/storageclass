@@ -3,6 +3,7 @@ import {marked} from "marked";
 import parse from "html-react-parser";
 import {useParams} from "react-router-dom";
 import fm from "front-matter";
+import {setPageMetadata} from "../utils/metadataUtils.js";
 
 interface MarkdownFrontmatterProps {
     title?: string;
@@ -25,37 +26,11 @@ const GlossaryIndexPage: React.FC = () => {
             const elements = parse(markdown) as never as ReactNode[];
             setPageContent(elements);
 
-            const metaTitle = parsed.attributes.title;
-            if (metaTitle) {
-                let titleTag = document.querySelector("title");
-                if (!titleTag) {
-                    titleTag = document.createElement("title");
-                    document.head.appendChild(titleTag);
-                }
-                titleTag.innerText = metaTitle;
-            }
-
-            const metaDescription = parsed.attributes.description;
-            if (metaDescription) {
-                let metaTag = document.querySelector("meta[name='description']");
-                if (!metaTag) {
-                    metaTag = document.createElement("meta");
-                    metaTag.setAttribute("name", "description");
-                    metaTag.setAttribute("content", metaDescription);
-                    document.head.appendChild(metaTag);
-                }
-            }
-
-            const metaKeywords = parsed.attributes.keywords;
-            if (metaKeywords) {
-                let metaTag = document.querySelector("meta[name='keywords']");
-                if (!metaTag) {
-                    metaTag = document.createElement("meta");
-                    metaTag.setAttribute("name", "keywords");
-                    metaTag.setAttribute("content", metaKeywords.join(", "));
-                    document.head.appendChild(metaTag);
-                }
-            }
+            setPageMetadata({
+                title: parsed.attributes.title,
+                description: parsed.attributes.description,
+                keywords: parsed.attributes.keywords,
+            });
         }
         loadPage();
     }, [params.file]);

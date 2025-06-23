@@ -1,8 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {HardDrive, Database, Users, ExternalLink} from 'lucide-react';
+import {setPageMetadata} from "../utils/metadataUtils.js";
 
 const HomePage: React.FC = () => {
+    setPageMetadata({
+        title: "Find the Right CSI Driver | Compare Features and Support",
+        description: "A central directory of CSI Drivers built for Kubernetes. Find drivers by feature, storage type, vendor, and compatibility with orchestration tools."
+    })
+
     return (
         <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
